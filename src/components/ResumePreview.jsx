@@ -4,18 +4,18 @@ import MinimalImageTemplate from "./templates/MinimalImageTemplate.jsx";
 import MinimalTemplate from "./templates/MinimalTemplate.jsx";
 import ClassicTemplate from "./templates/ClassicTemplate.jsx";
 
-const ResumePreview = ({ data, accentColor, classes, template = '' }) => {
+const ResumePreview = ({ data, accent_color, classes, template = '' }) => {
     const renderTemplate = () => {
         switch (template) {
             case 'modern':
-                return <ModernTemplate data={data} accentColor={accentColor} />;
+                return <ModernTemplate data={data} accentColor={accent_color} />;
             case 'minimal':
-                return <MinimalTemplate data={data} accentColor={accentColor} />;
+                return <MinimalTemplate data={data} accentColor={accent_color} />;
             case 'minimal-image':
-                return <MinimalImageTemplate data={data} accentColor={accentColor} />;
+                return <MinimalImageTemplate data={data} accentColor={accent_color} />;
 
             default:
-                return <ClassicTemplate data={data} accentColor={accentColor} />;
+                return <ClassicTemplate data={data} accentColor={accent_color} />;
         }
     }
     return (
