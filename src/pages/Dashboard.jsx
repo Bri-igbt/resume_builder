@@ -20,13 +20,13 @@ const Dashboard = () => {
     const createResume = async (e) => {
         e.preventDefault();
         setShowCreateResume(false);
-        navigate(`/app/builder/res234`)
+        navigate(`/app/builder/123`)
 
     }
     const uploadResume = async (e) => {
         e.preventDefault();
         setShowUploadResume(false);
-        navigate(`/app/builder/res234`)
+        navigate(`/app/builder/123`)
     }
     const editTitle = async (e) => {
         e.preventDefault();
