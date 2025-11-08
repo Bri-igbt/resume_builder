@@ -38,7 +38,7 @@ const Preview = () => {
                 <div className='flex flex-col items-center justify-center h-screen'>
                     <p className='text-center text-6xl text-slate-40 font-medium'>Resume Not Found</p>
                     <a
-                        href=''
+                        href='/'
                         className='mt-6 bg-green-500 hover:bg-green-600 text-white px-6  rounded-full h-9 m-1 ring-offset-1 ring-1 ring-green-400 flex items-center transition-colors'
                     >
                         <ArrowLeftIcon className='size-4 mr-2'/>
